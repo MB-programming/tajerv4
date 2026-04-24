@@ -1,0 +1,53 @@
+.main_menu > li {
+    margin-right: 25px;
+    margin-left: unset;
+}
+.main_menu > li:last-child {
+    margin-right: 0;
+}
+.cont-about::before {
+    right: -20px;
+    left: auto;
+}
+.cont-vision:before {
+    right: 30px;
+    left: auto;
+}
+.cont-message:before {
+    right: 30px;
+    left: auto;
+}
+.section_branches figure {
+    right: 40px;
+    left: auto;
+}
+.section_branches figure img {
+    max-width: 610px;
+}
+.dta-footer {
+    padding-right: 170px;
+    padding-left: unset;
+}
+.thumb-footer figure {
+    right: 0;
+    left: auto;
+}
+.thumb-footer figure img {
+    transform: scale(-1,1);
+}
+.copyRight {
+    left: auto;
+    right: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

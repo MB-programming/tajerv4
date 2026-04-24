@@ -1,0 +1,129 @@
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {
+    #header {
+        position: fixed;
+        top: 0;
+        height: auto;
+        padding: 0
+    }
+
+    #header .container {
+        justify-content: center;
+        border-radius: 0;
+    }
+
+    .opt-mobail {
+        display: block;
+    }
+
+    .opt-mobail .lang-site {
+        display: block
+    }
+
+    .main_menu {
+        display: none;
+    }
+
+    .logo-site img {
+        max-width: 160px;
+    }
+
+    .main_menu {
+        position: absolute;
+        width: 100%;
+        top: 82px;
+        left: 0;
+        background: #fff;
+        box-shadow: 0 6px 7px rgb(0 0 0 / 16%);
+        padding-bottom: 20px;
+        border-radius: 0;
+    }
+
+    .main_menu li {
+        display: block;
+        float: inherit;
+        padding: 10px 20px;
+    }
+
+    .sec_head {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main-wrapper {
+        padding-top: 100px;
+    }
+
+    .main-wrapper::after {
+        display: none;
+    }
+
+    .col--5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cont-about {
+        margin-bottom: 20px;
+    }
+
+    .item-statistics {
+        text-align: center;
+    }
+    .item-team {
+        margin-bottom: 15px;
+    }
+
+    .section_clients .container {
+        padding: 60px 20px;
+    }
+
+    .item-clients {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
+    
+    .item-partner {
+        height: 260px;
+    }
+    
+    .section_branches figure {
+        position: relative;
+        top: unset;
+        left: unset;
+        transform: unset;
+    }
+
+    .section_branches .container {
+        flex-direction: column;
+        border-radius: 36px;
+        padding: 40px 30px;
+    }
+
+    .section_branches figure img {
+        max-width: 100%;
+    }
+
+    .thumb-footer figure {
+        display: none
+    }
+
+    .dta-footer {
+        padding-bottom: 30px;
+        padding-left: 0;
+    }
+
+    .copyRight {
+        position: relative;
+        bottom: unset;
+        left: unset;
+    }
+}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 500px) {}
